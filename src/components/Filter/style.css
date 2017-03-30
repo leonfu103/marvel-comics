@@ -1,0 +1,25 @@
+.Filter {
+	background-color: #999;
+  height: 48px;
+  width: 100%;
+  display: table;
+}
+
+.Filter form {
+	vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+
+.Filter__input {
+	height: 24px;
+  width: 200px;
+  padding-left: 20px;
+  border-radius: 12px;
+}
+
+.Filter__button {
+	height: 30px;
+	width: 60px;
+	font-size: 28px;
+}

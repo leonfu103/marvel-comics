@@ -1,0 +1,10 @@
+.ListItem {
+	width: 16%;
+	display: inline-table;
+	margin: 16px;
+}
+
+.ListItem img {
+	width: 100%;
+	display: block;
+}

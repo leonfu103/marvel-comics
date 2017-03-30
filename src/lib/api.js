@@ -7,7 +7,7 @@ const privateKey = '24a0e3d87502a09a0a9a3b2d3071fa8b6b3e808a'
 
 const timestamp = parseInt(Date.now() / 1000, 10)
 const hash = crypto.createHash('md5').update(timestamp + privateKey + publicKey).digest('hex')
-const HOST_URL = 'http://gateway.marvel.com'
+const HOST_URL = 'https://gateway.marvel.com'
 
 export const findAllComicsByParams = (page = 1, characters = [], series = []) => {
 	var url = `${HOST_URL}/v1/public/comics?limit=20&ts=${timestamp}&apikey=${publicKey}&hash=${hash}`

@@ -23,3 +23,13 @@
 	width: 60px;
 	font-size: 28px;
 }
+
+@media screen and (max-width: 480px) {
+  .Filter__input {
+    display: block;
+  }
+
+  .Filter__button {
+    display: block;
+  }
+}

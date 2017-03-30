@@ -1,5 +1,5 @@
 .ListItem {
-	width: 16%;
+	width: 40%;
 	display: inline-table;
 	margin: 16px;
 }
@@ -7,4 +7,10 @@
 .ListItem img {
 	width: 100%;
 	display: block;
+}
+
+@media screen and (min-width: 480px) {
+	.ListItem {
+		width: 16%;
+	}
 }

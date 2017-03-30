@@ -9,7 +9,6 @@ export const CharacterItemDetails = (item) => {
 		id,
 		series
 	} = item
-	console.log('item', item)
 	const imageUrl = [thumbnail.path, thumbnail.extension].join('.')
 	const seriesList = series.items.map((item) => {
 		return (

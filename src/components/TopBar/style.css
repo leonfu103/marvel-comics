@@ -8,3 +8,9 @@
 .TopBar__logo {
 	display: inline-block;
 }
+
+@media screen and (max-width: 480px) {
+	.TopBar__logo img {
+		width: 200px;
+	}
+}
